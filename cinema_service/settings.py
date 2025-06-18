@@ -149,8 +149,8 @@ REST_FRAMEWORK = {
         "rest_framework.throttling.UserRateThrottle"
     ],
     "DEFAULT_THROTTLE_RATES": {
-        "anon": "10/minute",
-        "user": "30/minute"
+        "anon": "10/min",
+        "user": "30/min"
     },
     "DEFAULT_AUTHENTICATION_CLASSES": [
         "rest_framework_simplejwt.authentication.JWTAuthentication",
